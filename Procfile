@@ -1,1 +1,1 @@
-web: python posteddit/manage.py runserver 0.0.0.0:$PORT
+web: python redditclone/manage.py runserver 0.0.0.0:$PORT
