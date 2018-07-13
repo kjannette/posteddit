@@ -1,31 +1,36 @@
 {% extends 'base.html' %}
 
 {%  block content %}
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-sm-offset-3 col-md-offset-4 col-lg-offset-4">
+    <div class="box-login">
+      <div class="desc">
+        <h1>Sign Up</h1>
+        {% if error %}
+        {{ error }}
+        <br />
+        <br />
+        {% endif %}
 
-<h1>Sign Up</h1>
-
-{% if error %}
-{{ error }}
-<br />
-<br />
-{% endif %}
-
-<form method="POST" action="{% url 'accounts:signup' %}">
-  {% csrf_token %}
-  Username:
-  <br />
-  <input type="text" name="username" />
-  <br />
-  Password:
-  <br />
-  <input type="password" name="password1" />
-  <br />
-  Confirm Password:
-  <br />
-  <input type="password" name="password2" />
-  <br />
-  <br />
-  <input class="btn btn-primary" type="submit" value="Sign Up">
-</form>
-
+        <form method="POST" action="{% url 'accounts:signup' %}">
+        {% csrf_token %}
+        Username:
+        <br />
+        <input type="text" name="username" />
+        <br />
+        Password:
+        <br />
+        <input type="password" name="password1" />
+        <br />
+        Confirm Password:
+        <br />
+        <input type="password" name="password2" />
+        <br />
+        <br />
+        <input class="btn btn-primary" type="submit" value="Sign Up">
+        </form>
+      </div>
+    </div>  
+  </div>
+</div>
 {% endblock %}
