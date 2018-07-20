@@ -3,3 +3,7 @@ secrets.sh
 accounts/.DS_Store
 posts/.DS_Store
 redditclone/.DS_Store
+/venv
+/env
+*.py
+*.pyc
