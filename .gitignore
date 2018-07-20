@@ -5,5 +5,4 @@ redditclone/.DS_Store
 secrets.sh
 /venv
 /env
-*.py
 *.pyc
