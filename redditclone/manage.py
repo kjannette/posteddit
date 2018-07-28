@@ -2,6 +2,8 @@
 import os
 import sys
 
+STATIC_ROOT = os.path.join(BASE_DIR, '/static/')
+
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "redditclone.settings")
     try:
