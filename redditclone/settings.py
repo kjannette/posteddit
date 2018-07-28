@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -126,5 +127,5 @@ STATICFILES_DIRS = [
     # '/var/www/static/',
 ]
 
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn")
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static")
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media_cdn")
