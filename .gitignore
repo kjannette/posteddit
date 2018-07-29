@@ -1,8 +1,14 @@
 accounts/.DS_Store
 posts/.DS_Store
 redditclone/.DS_Store
+<<<<<<< HEAD
 .DS_Store
 secrets.sh
 /venv
 /env
 *.pyc
+=======
+*.pyc
+venv
+__pycache__
+>>>>>>> dev

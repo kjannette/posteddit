@@ -8,8 +8,12 @@ requests = "*"
 gunicorn = "*"
 django-heroku = "*"
 whitenoise = "*"
+<<<<<<< HEAD
+=======
+django = "==2.*"
+>>>>>>> dev
 
 [dev-packages]
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
