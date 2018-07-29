@@ -1,11 +1,7 @@
 {
     "_meta": {
         "hash": {
-<<<<<<< HEAD
-            "sha256": "1e71c7400ad829a8298783363ec14f2c828a3e59f0e926dd8c1b053529897423"
-=======
             "sha256": "a9354285e4e9fd247e788dc5ddb56b52b84a7e5fb374d5fd94a8f3e5368b77a8"
->>>>>>> dev
         },
         "pipfile-spec": 6,
         "requires": {
@@ -43,15 +39,11 @@
         },
         "django": {
             "hashes": [
-                "sha256:b7f77c0d168de4c4ad30a02ae31b9dca04fb3c10472f04918d5c02b4117bba68",
-                "sha256:eb9271f0874f53106a2719c0c35ce67631f6cc27cf81a60c6f8c9817b35a3f6e"
+                "sha256:97886b8a13bbc33bfeba2ff133035d3eca014e2309dff2b6da0bdfc0b8656613",
+                "sha256:e900b73beee8977c7b887d90c6c57d68af10066b9dac898e1eaf0f82313de334"
             ],
-<<<<<<< HEAD
-            "version": "==1.11.14"
-=======
             "index": "pypi",
             "version": "==2.0.7"
->>>>>>> dev
         },
         "django-heroku": {
             "hashes": [
@@ -131,11 +123,7 @@
                 "sha256:a68ac5e15e76e7e5dd2b8f94007233e01effe3e50e8daddf69acfd81cb686baf",
                 "sha256:b5725a0bd4ba422ab0e66e89e030c806576753ea3ee08554382c14e685d117b5"
             ],
-<<<<<<< HEAD
-            "markers": "python_version != '3.2.*' and python_version != '3.3.*' and python_version != '3.0.*' and python_version != '3.1.*' and python_version < '4' and python_version >= '2.6'",
-=======
             "markers": "python_version != '3.0.*' and python_version < '4' and python_version != '3.3.*' and python_version != '3.2.*' and python_version != '3.1.*' and python_version >= '2.6'",
->>>>>>> dev
             "version": "==1.23"
         },
         "whitenoise": {

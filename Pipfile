@@ -8,10 +8,7 @@ requests = "*"
 gunicorn = "*"
 django-heroku = "*"
 whitenoise = "*"
-<<<<<<< HEAD
-=======
 django = "==2.*"
->>>>>>> dev
 
 [dev-packages]
 
