@@ -3,3 +3,6 @@ secrets.sh
 accounts/.DS_Store
 posts/.DS_Store
 redditclone/.DS_Store
+*.pyc
+venv
+__pycache__
